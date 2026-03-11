@@ -5,6 +5,6 @@ app = Flask(__name__)
 def home():
   return "MERHABA, BULUTTAN SELAM"
 
-@app.route('/about')
+@app.route('/about/')
 def home():
   return "MERHABA, BULUTTAN SELAM"
